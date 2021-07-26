@@ -1,0 +1,440 @@
+@media (max-width: 1399.98px) { 
+    .center{
+        width: 90%;
+    }
+    .offer__choose h2{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media (max-width: 1199.98px) { 
+
+.list-card .card{
+    width: 49%;
+}
+.main-information .logo-adress,.main-information .menu, .main-information .account, .main-information .contact, .main-information .subcribe {
+    width: 33%;
+}
+.main-information .subcribe,.main-information .contact{
+    padding-top: 30px;
+}
+.main-information .contact h2{
+    text-align: start;
+}
+.main-information .contact .ico{
+    text-align: start;
+   
+}
+.logo-adress .attraction, .adr, .phn, .logo-adress a, li{
+    margin-bottom: 0;
+}
+
+
+.info-desig .main-cont{
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.info-desig .vleft-side{
+    width: 100%;
+    font-size: 40px;
+    
+}
+.info-desig .vright-side{
+    width: 100%;
+    padding-top: 30px;
+    margin-left: 0;
+}
+.info-desig .rooms .pic{
+    width: 100%;
+}
+.info-desig .rooms .card{
+    max-width: 100%;
+}
+
+.partner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.partner p {
+    padding-bottom: 60px;
+}
+.partner .pic-brands{
+    width: 26%;
+    padding-bottom: 25px;
+}
+.partner h2 {
+    font-size: 40px;
+}
+.info-desig .main-cont{
+    padding: 0;
+}
+.info-desig .vleft-side{
+    padding-top: 20px;
+    font-size: 40px;
+    
+}
+
+.likes .like-stars:nth-child(2){
+    display: none;
+}
+.likes{
+    padding-left: 60px;
+} 
+.contacts h5{
+    font-size: 40px;
+}
+.main__information .free-consult{
+    flex-wrap: wrap-reverse;
+}
+.main__information .free-consult .consult-left{
+    width: 100%;
+}
+.main__information .consult-right{
+    width: 100%;
+}
+.main__information .consult-right img{
+    max-width: 100%;
+}
+.main__information .free-consult .consult-left p{
+    padding-top: 30px;
+}
+.button__consult{
+    text-align: center;
+}
+.diff-likes h2{
+    width: 100%;
+}
+.opinion__last .diff-likes .brakets{
+    width: 30%;
+}
+.opinion__last .diff-likes img{
+    margin-left: 0;
+}
+
+.archmoove h2, .diff-likes h2, .right-side h2{
+    width: 100%;
+}
+.opinion__last .diff-likes .thanks{
+    justify-content: space-between;
+}
+
+.opinion__last .diff-likes .words{
+    width: 100%;
+}
+/* burger-menu */
+
+.left-side, .central-side, .looking{
+    display: none;
+}
+
+.central-side .show{
+ 
+    /* opacity: 1; */
+    display: block;
+}
+
+#burger{
+    display: block;
+}
+
+    
+
+.show{
+    
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 110%;
+    left: -10%;
+    transition: 1s ease-in-out;
+
+}
+.show__looking{
+    opacity: 1;
+    display: block;
+    position: fixed;
+    top: 20;
+    transition: 1s ease-in-out;
+
+}
+
+
+.collapse:not(.show){
+    display: block;
+
+}
+
+}
+
+
+@media (max-width: 991.98px) { 
+
+    .inspiration .three-sections{
+        flex-wrap: wrap;
+    }
+    .inspiration .content{
+        margin-top: 50px;
+    }
+.feature{
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.feature .item{
+    width: 50%;
+    justify-content: start;
+    padding: 20px;
+}
+.main-information .subcribe,.main-information .contact{
+    width: 40%;
+}
+.logo-adress .attraction, .adr, .phn, .logo-adress a, li {
+    line-height: 20px;
+}    
+.designer-see .desroll{
+    height: 100%;
+} 
+.green-dots {
+    bottom: 60px;
+}
+.advantages{
+    flex-wrap: wrap;
+}
+
+.advantages .advant{
+    text-align: start;
+    width: 40%;
+    padding-bottom: 40px;
+}
+.contacts{
+    padding-left: 0;
+}
+.main-information .main-card{
+    flex-wrap: wrap-reverse;
+}
+.main-information .left-info{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.main-information .right-info{
+    width: 100%;
+}
+.main-information .second-card{
+    flex-wrap: wrap;
+}
+.main-information .second-card .right-second{
+    width: 100%;
+}
+
+.main-information .second-card .left-second{
+    width: 100%;
+}
+.main-information .right-info h4,.main-information .second-card .left-second h4{
+    padding-top: 20px;
+}
+.main-information .second-card .left-second p{
+    padding-bottom: 20px;
+}
+.main-information{
+    padding-top: 0;
+}
+.advantages{
+    padding-bottom: 10px;
+}
+.archmoove h2, .diff-likes h2, .right-side h2{
+    width: 100%;
+    font-size: 38px;
+    line-height: 50px
+}
+.opinion__last .diff-likes .words p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.archmoove .archmoove__devide{
+    flex-wrap: wrap;
+}
+.archmoove .archmoove__devide .archmoove__left{
+    width: 100%;
+}
+.archmoove .archmoove__devide .archmoove__right, .diff-likes .archmoove__devide .archmoove__right, .right-side .archmoove__devide .archmoove__right{
+    width: 100%;
+    padding-top: 30px;
+}
+.archmoove .archmoove__devide .archmoove__left img, .diff-likes .archmoove__devide .archmoove__left img, .right-side .archmoove__devide .archmoove__left img{
+    max-width: 100%;
+}
+.archmoove .archmoove__devide .info_guarant, .diff-likes .archmoove__devide .info_guarant, .right-side .archmoove__devide .info_guarant{
+    padding-top: 40px;
+}
+.archmoove .archmoove__devide .guarant, .diff-likes .archmoove__devide .guarant, .right-side .archmoove__devide .guarant {
+   
+    padding-top: 40px;
+}
+
+
+
+}
+ 
+ 
+ @media (max-width: 767.98px) { 
+    .navbar-brand, .logo-adress h2, .menu h2, .account h2, .contact h2, .subcribe h2{
+        font-size: 18px;
+    }
+    .logo-adress .attraction, .adr, .phn, .logo-adress a, li{
+        font-size: 14px;
+    }
+hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.list-card .card{
+    width: 100%;
+}
+ 
+.main-information .contact,.main-information .subcribe{
+    width: 100%;
+}
+
+.promotion .promo-cards{
+    flex-wrap: wrap;
+    
+}
+.promotion .promo-cards .promo-cards__content{
+    width: 30%;
+}
+
+.green-dots {
+    bottom: 40px;
+}
+
+
+
+.info-desig .vright-side{
+  
+    padding-top: 30px;
+   font-size: 20px;
+}
+
+
+.feature .item{
+    width: 100%;
+    
+}
+.likes{
+    height: 100%;
+}
+.likes .more{
+    display: none;
+}
+
+.likes .like-stars p{
+    width: 30%;
+}
+.second-container h2, .second-container h3{
+    font-size: 35px;
+}
+.main__information h1{
+    font-size: 70px;
+    line-height: 90px;
+}
+.opinion__last .sweet__home{
+    flex-wrap: wrap;
+}
+.opinion__last .sweet-left{
+    width: 100%;
+}
+.opinion__last .right-side h2{
+    
+    padding-top: 0;
+}
+.opinion__last .right-side{
+    width: 100%;
+}
+.opinion__last .sweet-left img{
+    max-width: 100%;
+}
+.opinion__last .right-side .button__freeconsult{
+    text-align: center;
+}
+.offer__choose h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+    .promotion h3 {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 35px;
+        padding-bottom: 40px;
+    }
+
+    .promotion .promo-cards .promo-cards__content {
+        width: 35%;
+    }
+    .partner .pic-brands{
+        width: 100%;
+    }
+    .green-dots {
+        bottom: 10px;
+    }
+    .likes .like-stars:nth-child(1){
+        display: none;
+    }
+
+    .likes .like-stars{
+        padding-bottom: 70px;
+    }
+    .likes .like-stars p {
+        font-size: 18px;
+        line-height: 32px;
+        
+    }
+    .likes {
+        padding-left: 25px;
+    }
+    .advantages .advant{
+        width: 100%;
+    }
+    .contacts h5{
+        line-height: 40px;
+        padding-bottom: 30px;
+        font-size: 32px;
+    }
+
+    .main__information h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .archmoove .archmoove__devide .archmoove__right, .diff-likes .archmoove__devide .archmoove__right, .right-side .archmoove__devide .archmoove__right{
+        justify-content: space-between;
+    }
+    
+    .archmoove__right .info_guarant .button__freeconsult{
+    display: none;
+}
+.offer__choose .bhouse .bhouse__pic img{
+    height: 50vh;
+}
+
+}

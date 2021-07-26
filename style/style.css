@@ -1,0 +1,453 @@
+body{
+    font-family:'Khula', sans-serif;
+}
+
+
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-container{
+    background: linear-gradient(to right,
+    rgba(249, 241, 231, 1) 60%, rgba(252, 248, 243, 1) 60%);
+    height: 221px;
+}
+ .navbar-brand, .logo-adress h2, .menu h2, .account h2,.contact h2,.subcribe h2{
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    /* Line-height:29px; */
+    
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 2.5rem;
+}
+.information{
+    padding-top: 40px;
+    position: relative;
+}
+
+.form-control{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(97, 97, 97, 1);
+    padding-left: 40px;
+}
+.btn-search{
+    background: transparent;
+    border: 0;
+    position: relative;
+    left: 35px;
+}
+ a:last-child:visited{
+    color: black;
+}
+
+
+.container-fluid .item1{
+    padding-left: 30px;
+    padding-right: 33px;
+}
+.container-fluid .item2{
+    padding-right: 36px;
+}
+.container-fluid .item3{
+    border-radius: 50px;
+}
+.container .row img:first-child{
+    width: 934px;
+    height: 553px;
+}
+
+.container .row :last-child{
+    width: 70px;
+    height: 934px ;
+}
+.left-side{
+    padding-left: 50px;
+}
+
+
+#burger{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    position:absolute;
+    right: 0;
+    top: 42px;
+}
+#burger i{
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin: 3px;
+    background: black;
+}
+#close{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 42px;
+    font-size: 30px;
+    color: black;
+}
+
+
+.carousel-inner img{
+    height: 553px;
+    
+}
+.round-dots .round{
+    border-radius: 50%;
+    background: rgba(232, 159, 113, 1);
+    width: 11px;
+    height: 11px;
+    border: 0;
+}
+.round-dots{
+top: -50px;
+}
+
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 88px;
+}
+.feature .item{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+.feature img{
+    width: 40px;
+    height: 40px;
+}
+
+.list-products h2{
+    text-align: center;
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.feature .descr{
+    padding-left: 24px;
+}
+.feature .descr .naming{
+    padding-bottom: 5px;
+    color: rgba(58, 58, 58, 1);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.feature .descr p{
+    font-size: 16px;
+    color: rgba(137, 137, 137, 1);
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.list-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-card .card img{
+   object-fit: cover;
+   width: 100%;
+   max-width: 100%;
+}
+.card{
+    margin-bottom: 34px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.pic-caption{
+    position: absolute;
+    /* top: 175px; */
+    width: 100%;
+    height: 100%;
+    /* left: 41px; */
+    background: rgba(0,0,0,0.5);
+    padding: 12px 58px;
+    opacity: 0;
+    text-align: center;
+    
+}
+.pic-caption a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(232, 159, 113, 1);
+    background: #fff;
+    transition: all 1s ease-in-out;
+    padding: 10px;
+    margin-top: 100%;
+    
+}
+.pic-caption img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.card:hover .pic-caption{
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    
+    
+}
+
+
+.more-info{
+    background-color: rgba(244, 245, 247, 1);
+    border: none;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+.list-card .card .more-info h5{
+font-weight: 600;
+font-style: normal;
+font-size: 24px;
+line-height: 28px;
+padding-bottom: 8px;
+    
+}
+.list-card .card .more-info .name{
+    font-weight: 500;
+    color: rgba(137, 137, 137, 1);
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+   
+}
+.list-card .card .more-info p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.list-card .card .more-info .price{
+    display: inline-block;
+}
+
+
+.list-card .card .more-info span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: line-through;
+    color: rgba(176, 176, 176, 1);
+    margin-left: 16px;
+}
+
+.button{
+    text-align: center;
+    padding-bottom: 44px;
+    padding-top: 20px;  
+}
+.button .more-information{
+    
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border: 1px solid #E89F71;
+    padding: 12px 82px;
+    transition: 0.5s;
+}
+.button .more-information:hover{
+color: rgb(100, 181, 228);
+border: 4px solid rgb(45, 189, 110);
+
+}
+.more-information .show-more{
+    color:rgba(232, 159, 113, 1) ;
+}
+.more-information .show-more:hover{
+    color: rgb(100, 181, 228);
+} 
+
+
+.inspiration{
+    background-color: rgba(252, 248, 243, 1);
+}
+.inspiration .content{
+    width: 100%;
+    margin-top: 223px;
+}
+.inspiration .inner{
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 44px;
+}
+.inspiration .list-pict{
+width: 100%;
+margin-left: 10px;
+margin-top: 44px;
+
+}
+.inspiration .content h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.inspiration .content p{
+    font-weight: 500;
+   color:  rgba(97, 97, 97, 1);
+   font-size: 16px;
+   line-height: 24px;
+   padding-bottom: 36px;
+   padding-right: 30px ;
+}
+.inspiration .content a{
+    background-color: rgba(232, 159, 113, 1);
+    padding: 12px 40px;
+    text-decoration: none;
+}
+.inspiration .content a span{
+   
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; 
+    transition: 1s;  
+}
+.inspiration .content a:hover{
+    color: rgba(232, 159, 113, 1);
+    background-color:rgba(97, 97, 97, 1);
+    padding: 12px 40px;
+    text-decoration: none;
+}
+
+
+.inspiration .inner{
+    display: flex;
+}
+
+.inspiration .inner {
+    background-image: url(../img/childroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 582px;
+    max-width: 100%;
+
+}
+.inner .smth__choose{
+   background-color: rgba(255, 255, 255, 0.72);
+   padding: 32px 32px;
+   margin-top: 450px;
+   margin-left: 25px;
+   margin-bottom: 24px;
+}
+.inner .arrow{
+    margin-bottom: 24px;
+    margin-top: 510px;
+} 
+
+.inner .arrow img{
+    background-color: rgba(232, 159, 113, 1);
+    padding: 12px;
+}
+.inspiration .three-sections{
+    display: flex;  
+}
+.downs{
+    bottom: -50px;
+    left: -200px;
+}
+.downs .round-downs{
+    border-radius: 50%;
+    background: rgba(232, 159, 113, 1);
+    width: 11px;
+    height: 11px;
+    border: 0;
+}
+
+
+/* FOOTER */
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid #D8D8D8;
+}
+.logo-adress .attraction{
+    margin-top: 16px;
+}
+.logo-adress .attraction,.adr, .phn,.logo-adress a,li{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(97, 97, 97, 1);
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 11px;
+    
+}
+.logo-adress img{
+    padding-right: 10px;
+}
+.logo-adress .adr{
+    margin-bottom: 16px;
+}
+.send{
+    background-color: rgba(232, 159, 113, 1);
+    position: relative;
+    top: 9px;
+}
+form{
+    margin-top: 16px;
+}
+ul{
+    margin-top: 16px;
+}
+.main-information{
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.logo-adress, .menu, .account, .contact, .subcribe{
+    width: 20%;
+}
+li{
+    text-align: center;
+    margin-bottom: 16px;
+}
+ .menu h2, .account h2, .contact h2 {
+     text-align: center;
+ }
+ .cont {
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+ 
