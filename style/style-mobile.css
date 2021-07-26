@@ -139,16 +139,24 @@
     display: block;
 }
 
+ .looking .btn-search{
+    position: fixed;
+    left: 35px;
+    top:45px;
+}
+
+
 #burger{
     display: block;
 }
 
-    
+  
+ 
 
 .show{
     
-    min-height: 100vh;
-    background: rgba(255, 255, 255, 1);
+    min-height: 50vh;
+    background: rgba(255, 255, 255, 0.8);
     display: block;
     padding-bottom: 12px;
     justify-content: center;
@@ -176,11 +184,6 @@
 }
 .form-control {
     display: none;
-}
-.btn-search{
-    position: fixed;
-    left: 35px;
-    top:45px;
 }
 
 
