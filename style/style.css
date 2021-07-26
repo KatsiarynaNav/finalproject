@@ -53,8 +53,9 @@ body{
 .btn-search{
     background: transparent;
     border: 0;
-    position: relative;
+    position: fixed;
     left: 35px;
+    top:45px;
 }
  a:last-child:visited{
     color: black;
@@ -93,6 +94,7 @@ body{
     position:absolute;
     right: 0;
     top: 42px;
+    right: 30px;
 }
 #burger i{
     display: block;
@@ -103,8 +105,8 @@ body{
 }
 #close{
     display: none;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: 25px;
     top: 42px;
     font-size: 30px;
     color: black;
