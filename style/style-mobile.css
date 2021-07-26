@@ -177,7 +177,11 @@
 .form-control {
     display: none;
 }
-
+.btn-search{
+    position: fixed;
+    left: 35px;
+    top:45px;
+}
 
 
 }

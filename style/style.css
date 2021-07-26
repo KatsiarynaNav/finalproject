@@ -53,9 +53,9 @@ body{
 .btn-search{
     background: transparent;
     border: 0;
-    position: fixed;
+    position: relative;
     left: 35px;
-    top:45px;
+    
 }
  a:last-child:visited{
     color: black;

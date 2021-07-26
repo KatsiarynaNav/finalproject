@@ -61,9 +61,8 @@ body {
 .first-container .btn-search {
   background: transparent;
   border: 0;
-  position: fixed;
+  position: relative;
   left: 35px;
-  top:45px;
 }
 
 .first-container .left-side .item3 {
