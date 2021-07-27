@@ -129,6 +129,12 @@
 }
 /* burger-menu */
 
+.first-container{
+    z-index: 10000000;
+    position: relative;
+}
+
+
 .left-side, .central-side, .looking{
     display: none;
 }
@@ -448,5 +454,7 @@ hr{
 .offer__choose .bhouse .bhouse__pic img{
     height: 50vh;
 }
-
+#burger{
+    right: 30px;
+}
 }
